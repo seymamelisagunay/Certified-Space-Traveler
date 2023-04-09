@@ -7,6 +7,6 @@ public class OptionsButton : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("Options ");
+        SceneManager.LoadScene("Options");
     }
 }
