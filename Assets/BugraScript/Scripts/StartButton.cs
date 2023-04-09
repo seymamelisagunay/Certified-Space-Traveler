@@ -7,6 +7,6 @@ public class StartButton : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("OyunEkraný");
+        SceneManager.LoadScene("MainScene");
     }
 }
