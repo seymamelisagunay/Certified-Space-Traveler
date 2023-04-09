@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
-    private Image timerBar;
-    public float maxTime = 120f;
-    private float timeLeft;
+    private static Image timerBar;
+    public static float maxTime = 120f;
+    private static float timeLeft;
     public GameObject timesUpText;
     void Start()
     {
@@ -20,6 +20,7 @@ public class Timer : MonoBehaviour
     {
         if (timeLeft > 0)
         {
+           // Debug.Log(timeLeft);
             timeLeft -= Time.deltaTime;
             timerBar.fillAmount = timeLeft / maxTime;
         }
@@ -30,9 +31,12 @@ public class Timer : MonoBehaviour
         }
     }
 
-    void TimeBooster()
+    public static void TimeBooster()
     {
         timeLeft += 6f;
+        if (timeLeft > 120)
+            timeLeft = 120;
         timerBar.fillAmount = timeLeft / maxTime;
+        
     }
 }
