@@ -326,21 +326,37 @@ PrefabInstance:
       propertyPath: m_Name
       value: FirstPersonPlayer
       objectReference: {fileID: 0}
+    - target: {fileID: 2840223525849620493, guid: b4a0599daaf31274e9db14d4328074ab, type: 3}
+      propertyPath: m_Height
+      value: 1.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 2840223525849620493, guid: b4a0599daaf31274e9db14d4328074ab, type: 3}
+      propertyPath: m_Radius
+      value: 0.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 2840223525849620493, guid: b4a0599daaf31274e9db14d4328074ab, type: 3}
+      propertyPath: m_Center.x
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 2840223525849620493, guid: b4a0599daaf31274e9db14d4328074ab, type: 3}
+      propertyPath: m_Center.y
+      value: 0.82
+      objectReference: {fileID: 0}
     - target: {fileID: 2840223525849620494, guid: b4a0599daaf31274e9db14d4328074ab, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2840223525849620494, guid: b4a0599daaf31274e9db14d4328074ab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.1766086
+      value: 1.53
       objectReference: {fileID: 0}
     - target: {fileID: 2840223525849620494, guid: b4a0599daaf31274e9db14d4328074ab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.00000047683716
+      value: 0.09
       objectReference: {fileID: 0}
     - target: {fileID: 2840223525849620494, guid: b4a0599daaf31274e9db14d4328074ab, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.027154
+      value: -1.15
       objectReference: {fileID: 0}
     - target: {fileID: 2840223525849620494, guid: b4a0599daaf31274e9db14d4328074ab, type: 3}
       propertyPath: m_LocalRotation.w
@@ -369,6 +385,18 @@ PrefabInstance:
     - target: {fileID: 2840223525849620494, guid: b4a0599daaf31274e9db14d4328074ab, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2840223526971233181, guid: b4a0599daaf31274e9db14d4328074ab, type: 3}
+      propertyPath: near clip plane
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2840223526971233182, guid: b4a0599daaf31274e9db14d4328074ab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.602
+      objectReference: {fileID: 0}
+    - target: {fileID: 2840223526971233182, guid: b4a0599daaf31274e9db14d4328074ab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.064
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4a0599daaf31274e9db14d4328074ab, type: 3}
