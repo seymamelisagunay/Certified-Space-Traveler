@@ -1,0 +1,5 @@
+
+1) https://assetstore.unity.com/packages/2d/textures-materials/abstract/warped-shooting-fx-195246
+2) https://assetstore.unity.com/packages/3d/environments/sci-fi/sci-fi-styled-modular-pack-82913
+3) https://kpdwyer.itch.io/lo-fi-stellar-skirmish
+4)https://tools.wwwtyro.net/space-3d/index.html#animationSpeed=0.08196990065248043&fov=80&nebulae=true&pointStars=true&resolution=1024&seed=8ui9fnd5klk&stars=false&sun=true
