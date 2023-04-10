@@ -18,7 +18,7 @@ public class Uranyum : MonoBehaviour
         _uranyumValue++;
         uranyumValue.text= _uranyumValue.ToString();
         Destroy(gameObject);
-        if (_uranyumValue == 6)
+        if (_uranyumValue == 1)
         {
             lightOpen = true;
            // RedFlashingLights.RedFlashingLightStop();
