@@ -10,7 +10,7 @@ public class openButton : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(Uranyum._uranyumValue >= 1) 
+        if(Uranyum._uranyumValue >= 6) 
             button2.SetActive(true);
     }
 }

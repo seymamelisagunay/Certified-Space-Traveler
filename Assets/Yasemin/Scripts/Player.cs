@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     public GameObject button2;
     public GameObject bulletPrefab;
     public GameObject uiText;
+
     private float speed = 4f;
     private bool isShooting;
     private float cooldown = 0.5f;
@@ -70,6 +71,8 @@ public class Player : MonoBehaviour
 
     public void TurnBackScene()
     {
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene("MainScene 1");
     }
+
+    
 }
