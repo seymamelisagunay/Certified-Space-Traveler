@@ -59,15 +59,8 @@ public class Player : MonoBehaviour
     {
         while (!Spark.finishGame)
         {
-            Debug.Log("blaaaaaaaaa");
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.5f);
         }
-        //if (Spark.finishGame)
-        //{
-            uiText.SetActive(true);
-            Debug.Log("ienumahasdjh kisim calisti");
-
-       // }
-                 
+        uiText.SetActive(true);
     }
 }
