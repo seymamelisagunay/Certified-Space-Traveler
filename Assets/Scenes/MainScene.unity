@@ -2004,7 +2004,7 @@ MonoBehaviour:
   - -Are we under attack again?              -Didn't you just have the mint, damn
     dwarf planet inhabitants!                  -Mooommm, where is my gun?             
     (Go to Computer and Kill All Enemies)
-  textSpeed: 0.1
+  textSpeed: 0.01
 --- !u!114 &266312769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4985,7 +4985,7 @@ MonoBehaviour:
   lines:
   - -Are we under attack again? -Didn't you just have the mint, damn dwarf planet
     inhabitants! -Mooommm, where is my gun? (Go to Computer and Kill All Enemies)
-  textSpeed: 0.1
+  textSpeed: 0.01
 --- !u!114 &580547802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14053,6 +14053,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7969036921534531354, guid: 035b5a05b7de1c941803106edd3559bc, type: 3}
+      propertyPath: textSpeed
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969036921534531354, guid: 035b5a05b7de1c941803106edd3559bc, type: 3}
       propertyPath: lines.Array.size
       value: 1
       objectReference: {fileID: 0}
@@ -19623,7 +19627,7 @@ MonoBehaviour:
   textcomponent: {fileID: 697132600}
   lines:
   - mission complete
-  textSpeed: 0.1
+  textSpeed: 0.01
 --- !u!114 &2009458991
 MonoBehaviour:
   m_ObjectHideFlags: 0

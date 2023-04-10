@@ -4542,7 +4542,7 @@ MonoBehaviour:
   - -Inquire about educational status (Optional Task)                                                         
     -Complete The Monthly Intergalactic Negotiation Training                           
     (go to the plant room and check the screens)
-  textSpeed: 0.1
+  textSpeed: 0.01
 --- !u!114 &580547802
 MonoBehaviour:
   m_ObjectHideFlags: 0
