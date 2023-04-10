@@ -26,7 +26,7 @@ public class Spark : MonoBehaviour
             Destroy(explosionObject, 0.5f);
             deadShip++;
             Debug.Log(deadShip + " oldu ");
-            if (deadShip == 7)
+            if (deadShip == 1)
             {
                 finishGame = true;
             }

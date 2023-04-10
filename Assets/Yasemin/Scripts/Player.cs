@@ -2,9 +2,11 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
+    public GameObject button2;
     public GameObject bulletPrefab;
     public GameObject uiText;
     private float speed = 4f;
@@ -19,6 +21,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        button2.SetActive(false);
         uiText.SetActive(false);
         StartCoroutine(finishControl());
     }
@@ -62,5 +65,11 @@ public class Player : MonoBehaviour
             yield return new WaitForSeconds(0.5f);
         }
         uiText.SetActive(true);
+        button2.SetActive(true);
+    }
+
+    public void TurnBackScene()
+    {
+        SceneManager.LoadScene("MainScene");
     }
 }

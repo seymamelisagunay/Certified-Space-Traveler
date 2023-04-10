@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -18,32 +19,26 @@ public class UIManager : MonoBehaviour
         text3.SetActive(false);
         button.SetActive(false);
         Completed.SetActive(false);
-        StartCoroutine(Waiting());
     }
 
     public  void missionCompleted1()
     {
         text1.SetActive(false);
         Completed.SetActive(true);
-       // button.SetActive(true);
+        button.SetActive(true);
         
     }
 
     public void buttonAct()
     {
-        
+         Completed.SetActive(false); 
+         button.SetActive(false);
+         text2.SetActive(true);
     }
 
-    IEnumerator Waiting()
+    public void ChangeScene()
     {
-        Debug.Log("calis");
-        yield return new WaitForSeconds(2f);
-        while (!Completed.activeInHierarchy)
-        {
-            Completed.SetActive(false);
-           // button.SetActive(false);
-            text2.SetActive(true);
-        }
+        SceneManager.LoadScene("YaseminScene");
     }
     
 }
