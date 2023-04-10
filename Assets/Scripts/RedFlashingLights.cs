@@ -5,11 +5,12 @@ using DG.Tweening;
 
 public class RedFlashingLights : MonoBehaviour
 {
-    private Light _light;
+    public static Light _light;
     void Start()
     {
         _light= GetComponent<Light>();
         RedFlashingLightActive();
+        StartCoroutine(LightControl());
     }
 
     public void RedFlashingLightActive()
@@ -22,8 +23,13 @@ public class RedFlashingLights : MonoBehaviour
         mySequence.SetLoops(-1, LoopType.Yoyo);
     }
 
-    public void RedFlashingLightStop()
+   /* public void RedFlashingLightStop()
     {
         _light.color = Color.white;
+    }*/
+    IEnumerator LightControl() {
+        yield return new WaitForSeconds(1f);
+        if(Uranyum.lightOpen)
+            _light.color = Color.white;
     }
 }
