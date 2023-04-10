@@ -44,12 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 166c478ce3d57be4d82937850a2ac5a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 4737258902006473503, guid: 8969ca19aac9254469d389e6902f8e32, type: 3}
   objectPool: {fileID: 0}
-  shipStats:
-    maxHealth: 0
-    currentHealth: 0
-    maxLifes: 3
-    currentLifes: 3
-    shipSpeed: 0
-    fireRate: 0
